@@ -37,34 +37,51 @@ export const DEFAULT_CONFIG = {
         id: {
             name: 'idp_id',
             label: {
-                de: 'Identifikation im System des Identitätsanbieters',
-                en: 'Identifier in the system of the Identity Provider'
+                de: 'Zitadel ID',
+                en: 'Zitadel ID',
+                fr: 'ID Zitadel'
+            }
+        },
+        email: {
+            name: 'email',
+            label: {
+                de: 'E-Mail',
+                en: 'Email',
+                fr: 'Email'
             }
         },
         name: {
             name: 'name',
-            label: {de: 'Name', en: 'Name'}
-        },
-        email: {
-            name: 'email',
-            label: {de: 'E-Mail', en: 'Email'}
+            label: {
+                de: 'Vollständiger Name',
+                en: 'Full name',
+                fr: 'Nom complet'
+            }
         },
         image: {
             name: 'image',
-            label: {de: 'Profilbild-URL', en: 'Profile picture URL'}
+            label: {
+                de: 'Profilbild-URL',
+                en: 'Profile picture URL',
+                fr: 'URL de l\'image de profil'
+            }
         },
         roles: {
             name: 'roles',
-            label: {de: 'Rollen', en: 'Roles'},
+            label: {de: 'Rollen', en: 'Roles', fr: 'Rôles'},
             labels: {
-                singular: {de: 'Rolle', en: 'Role'},
-                plural: {de: 'Rollen', en: 'Roles'}
+                singular: {de: 'Rolle', en: 'Role', fr: 'Rôle'},
+                plural: {de: 'Rollen', en: 'Roles', fr: 'Rôles'}
             }
         },
         roleFields: {
             name: {
                 name: 'name',
-                label: {de: 'Name', en: 'Name'}
+                label: {
+                    de: 'Name',
+                    en: 'Name',
+                    fr: 'Nom'
+                }
             }
         }
     } satisfies ZitadelFieldsConfig,

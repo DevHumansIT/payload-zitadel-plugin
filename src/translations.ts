@@ -8,5 +8,10 @@ export const translations = {
         zitadelPlugin: {
             signIn: 'sign in with {{label}}'
         }
+    },
+    fr: {
+        zitadelPlugin: {
+            signIn: 'Se connecter avec {{label}}'
+        }
     }
 }
