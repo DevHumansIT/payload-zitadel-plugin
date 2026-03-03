@@ -208,6 +208,10 @@ export const zitadelPlugin: ZitadelPlugin = (config) => {
                 en: {
                     ...incomingConfig.i18n?.translations?.en,
                     ...translations.en
+                },
+                fr: {
+                    ...incomingConfig.i18n?.translations?.fr,
+                    ...translations.fr
                 }
             }
         }
